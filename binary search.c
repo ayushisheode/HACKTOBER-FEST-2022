@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a[100],n,i;
+    int a[600],n,i;
     printf("\n Enter no. of elements : ");
     scanf("%d",&n);
     printf("\n Enter array : ");
@@ -60,7 +60,7 @@ int main()
     else
         printf("\n element is not in array.");
 
-        printf("\n\n");
+        printf("\n");
 
     return 0;
 }
